@@ -35,7 +35,7 @@ Put startword and endword in a ladder
 
 Game start
 
-SET Round = 1
+SET Round = 0
 
 While newword != endword
 
@@ -62,7 +62,7 @@ While newword != endword
 	SET variable newword to USER INPUT 
 	SET round = round + 1
 
-
+SET round = round + 1
 PRINT "Du vann! det tog" + round and PRINT the ladder
 
 
@@ -99,6 +99,7 @@ IF not retry
 Else Check IF the new word == endword /* While loop?
 IF word == endword Game finished give result on how many rounds it took and show the ladder
 Else go to new round and change 1 letter based on the new word and add the new word to the ladder
+
 
 
 /*
