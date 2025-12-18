@@ -62,7 +62,6 @@ While newword != endword
 	SET variable newword to USER INPUT 
 	SET round = round + 1
 
-SET round = round + 1
 PRINT "Du vann! det tog" + round and PRINT the ladder
 
 
@@ -103,3 +102,4 @@ Else go to new round and change 1 letter based on the new word and add the new w
 
 
 /*
+
