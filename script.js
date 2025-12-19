@@ -43,7 +43,7 @@ While newword != endword
 
 	USER INPUT changes 1 letter in newword
 
-	Check IF USER INPUT changed only 1 letter from the previousword to newword
+	Check IF USER INPUT changed 1 letter from previousword
 
 	IF more or less then 1 letter has changed, 
 	
@@ -102,4 +102,5 @@ Else go to new round and change 1 letter based on the new word and add the new w
 
 
 /*
+
 
